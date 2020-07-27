@@ -4,8 +4,8 @@
 
 ### 실습2 (2020.07.27)
 [WEB](https://github.com/Yoooooniiiii/aischool_web/blob/master/4_flex_pract/pract2.html)
-![image]()
+![image](./pract2.PNG)
 
 ### 실습3 (2020.07.27)
 [WEB](https://github.com/Yoooooniiiii/aischool_web/blob/master/4_flex_pract/pract3.html)
-![image]()
+![image](.pract3.PNG)
