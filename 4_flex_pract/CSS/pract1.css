@@ -1,0 +1,27 @@
+.box_container {
+  width: 320px;
+  height: 110px;
+
+  border: 3px solid mediumslateblue;
+  border-radius: 5px;
+  margin: 0 auto;
+
+  /* flex */
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lavender;
+  border-radius: 5px;
+  color: plum;
+  font-size: 25px;
+  margin: 3px;
+
+  /*font 가운데 정렬*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

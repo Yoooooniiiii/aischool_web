@@ -1,0 +1,38 @@
+.container {
+  width: 500px;
+  height: 330px;
+
+  /* border: 3px solid mediumslateblue;
+    border-radius: 5px; */
+  margin: 0 auto;
+}
+.box_wrap {
+  /* flex */
+  display: flex;
+}
+.container > :first-child {
+  justify-content: left;
+}
+
+.container > :nth-child(2) {
+  justify-content: center;
+}
+
+.container > :last-child {
+  justify-content: flex-end;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lavender;
+  border-radius: 5px;
+  color: plum;
+  font-size: 25px;
+  margin: 3px;
+
+  /*font 가운데 정렬*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
