@@ -21,7 +21,7 @@
 .container > :last-child {
   justify-content: flex-end;
 }
-/*flex-direction : reverse 주축 바꾸기 */
+/*flex-direction: reverse 주축 바꾸기 */
 .box {
   width: 100px;
   height: 100px;

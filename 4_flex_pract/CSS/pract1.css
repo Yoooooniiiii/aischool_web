@@ -6,7 +6,7 @@
   border-radius: 5px;
   margin: 0 auto;
 
-  /* flex */
+  /* flex space-around */
   display: flex;
   justify-content: space-around;
   align-items: center;
