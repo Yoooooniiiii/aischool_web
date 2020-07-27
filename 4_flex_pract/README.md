@@ -8,4 +8,4 @@
 
 ### 실습3 (2020.07.27)
 [WEB](https://github.com/Yoooooniiiii/aischool_web/blob/master/4_flex_pract/pract3.html)
-![image](.pract3.PNG)
+![image](./pract3.PNG)
