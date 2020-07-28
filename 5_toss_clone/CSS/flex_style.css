@@ -1,0 +1,88 @@
+* {
+  font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Sans-serif";
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+li {
+  list-style: none;
+}
+img {
+  border-style: none;
+}
+.container {
+  background: #fff;
+  width: 95%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-around;
+}
+.content {
+}
+.title {
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 1.35;
+  letter-spacing: -0.6px;
+  color: #454f5d;
+}
+.desc_title {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.59;
+  color: #454f5d;
+  margin-top: 38px;
+}
+.details {
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.detailBtn {
+  letter-spacing: -0.12px;
+  color: #3182f6;
+  line-height: 20px;
+}
+.content_banks {
+  position: relative;
+}
+.item_bank {
+  width: 360px;
+  height: 70px;
+  display: flex;
+  position: relative;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 30px 60px 12px rgba(0, 0, 33, 0.05),
+    0 4px 24px 0 rgba(0, 0, 33, 0.05), 0 0 1px 0 rgba(0, 0, 33, 0.09);
+}
+.item_bank img {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  margin: -15px 50px 0 15px;
+  top: 50%;
+}
+.text_bank {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 60px;
+  font-size: 15px;
+  width: 270px;
+}
+.name_bank {
+  color: #666;
+  font-weight: 500;
+}
+.balance {
+  font-weight: 700;
+}

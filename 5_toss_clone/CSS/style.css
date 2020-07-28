@@ -1,0 +1,106 @@
+* {
+  font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Sans-serif";
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+li {
+  list-style: none;
+}
+img {
+  border-style: none;
+}
+.container {
+  background: #fff;
+  width: 95%;
+  max-width: 1024px;
+  position: relative;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.content {
+  position: absolute;
+  margin-top: 60px;
+}
+.title {
+  margin: 0;
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 1.35;
+  letter-spacing: -0.6px;
+  color: #454f5d;
+}
+.desc_title {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.59;
+  color: #454f5d;
+  margin-top: 38px;
+}
+.details {
+  margin-top: 20px;
+}
+.detailBtn {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.12px;
+  color: #3182f6;
+  line-height: 20px;
+  height: 20px;
+}
+.detailBtn ::before {
+  border: 1px solid #3182f6;
+}
+.detailBtn ::after {
+  border: 1px solid #3182f6;
+}
+
+.content_banks {
+  position: absolute;
+  color: #454f5d;
+  right: 48px;
+}
+.item_bank {
+  background: #fff;
+  width: 360px;
+  height: 70px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  position: relative;
+  box-shadow: 0 30px 60px 12px rgba(0, 0, 33, 0.05),
+    0 4px 24px 0 rgba(0, 0, 33, 0.05), 0 0 1px 0 rgba(0, 0, 33, 0.09);
+}
+.item_bank img {
+  width: 28px;
+  height: 28px;
+  left: 17px;
+  top: 50%;
+  margin-top: -14px;
+  position: absolute;
+}
+.text_bank {
+  width: calc(100% - 60px);
+  position: absolute;
+  left: 60px;
+  top: 25px;
+}
+.text_bank div {
+  display: inline-block;
+  font-size: 15px;
+}
+.name_bank {
+  color: #666;
+  font-weight: 500;
+}
+.balance {
+  position: absolute;
+  right: 20px;
+  font-weight: 700;
+}
